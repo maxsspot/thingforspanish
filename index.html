@@ -1,0 +1,193 @@
+<!-- ALEX ZHANG IS ALEXANDER GRAHAM BELL-->
+<!DOCTYPE html>
+<html>
+	<head>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+		<title>Spanish Speaking Country Project - Maxwell Snyder</title>
+	</head>
+	<body>
+        <div id = "monument">
+            <br>
+            <h1><b>THE ANGEL OF INDEPENDENCE!</b></h1>
+            <br>
+            <h1>IT WAS BUILT IN 1910 AND IS IN DOWNTOWN MEXICO CITY! + IT LOOKS COOL!</h1>
+            <br>
+            <img style = "width:350px;height:350px;" src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kZ6Wo8IcDo0qWgT4NHBMpAHaLH%26pid%3DApi%26h%3D160&f=1&ipt=8375690c3827adc226b0d1983d58b1e9bc156ec82e5d77e7a8b1c8e4af7a521f&ipo=images" />
+            <br>
+            <br>
+            <a onclick = "clesples()"><h1>Ok very cool</h1></a>
+        </div>
+        <div id = "cit">
+            <br>
+            <h1><b>LARGEST AND MOST POPULAR CITY!</b></h1>
+            <br>
+            <h1>MEXICOS LARGEST AND MOST POPULAR CITY IS MEXICO CITY! AS OF THIS YEAR THE POPULATION IS 22 MILLION!</h1>
+            <br>
+            <img style = "width:350px;height:350px;" src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5lEE70hSj7THbqjOpl4wKwHaE7%26pid%3DApi&f=1&ipt=e8c437c37988f419d3f93103161b07ec05f2d64ecb3284bc94cbf470c8d66ef8&ipo=images" />
+            <img style = "width:375px;height:350px;" src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.a3asbYVSkpZzgMgYEgJUHgHaDt%26pid%3DApi&f=1&ipt=a7bf8a10620a88ce3796fdfd4c32391eaae244226941b68640abef763259ce7f&ipo=images" />
+            <br>
+            <br>
+            <a onclick = "clesples()"><h1>Ok very cool</h1></a>
+        </div>
+        <div id = "devious">
+            <br>
+            <h1><b>5 THINGS NOT TO MISS!</b></h1>
+            <br>
+            <h1><a href = "https://www.booking.com/city/mx/izamal.html?aid=849835&label=PlacesVisitMexico" target = "_blank">IZAMAL</a></h1>
+            <h1><a href = "https://www.booking.com/city/mx/mazatlan.html?aid=849835&label=PlacesVisitMexico" target = "_blank">Mazatlán</a></h1>
+            <h1><a href = "https://www.booking.com/city/mx/acapulco-de-juarez.html?aid=849835&label=PlacesVisitMexico" target = "_blank">Acapulco</a></h1>
+            <h1><a href = "https://www.booking.com/city/mx/guadalajara.html?aid=849835&label=PlacesVisitMexico" target = "_blank">Guadalajara</a></h1>
+            <h1><a href = "https://www.booking.com/city/mx/san-jose-del-cabo.html?aid=849835&label=PlacesVisitMexico" target = "_blank">Los Cabos</a></h1>
+            <br>
+            <br>
+            <a onclick = "clesples()"><h1>Ok very cool</h1></a>
+        </div>
+        <br>
+        <button onclick = "mon()" id = "wa">Important Monument!</button>
+        <br>
+        <button onclick = "city()">Largest and most popular city!</button>
+        <br>
+        <button onclick = "devious()">Five things not to miss!</button>
+        <br>
+        <br>
+		<label id = "bottom">Maxwell Snyder, Mexico, <img src = "https://duckduckgo.com/i/5d875af6.png" /></label>
+<img style = "width:200px;cursor:pointer;height:150px;" id = "please" onclick = "bot()" src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcountry.eiu.com%2Fasset_images%2FCR_CRMX_MAIN_20190401T000000_417.gif&f=1&nofb=1&ipt=58c2cd7cfddef2ec980ff9dbbf0826865b084c126b9f4ed2f1f21a42cd3ce367&ipo=images" />
+    
+    
+    <script>
+        var m = document.getElementById ("monument").style;
+        var c = document.getElementById ("cit").style;
+        var r = document.getElementById ("devious").style;
+
+        function mon () {
+            m.opacity = "1.0";
+            m.pointerEvents = "all";
+        }
+
+        function city () {
+            c.opacity = "1.0";
+            c.pointerEvents = "all";
+        }
+
+        function devious () {
+            r.opacity = "1.0";
+            r.pointerEvents = "all";
+        }
+
+        function clesples () {
+            m.opacity = "0.0";
+            m.pointerEvents = "none";
+            c.opacity = "0.0";
+            c.pointerEvents = "none";
+            r.opacity = "0.0";
+            r.pointerEvents = "none";
+        }
+
+        function bot () {
+            document.getElementById ("please").style.position = "fixed";
+            document.getElementById ("please").style.left = "0px";
+            document.getElementById ("please").style.top = "0px";
+            document.getElementById ("please").style.width = "100%";
+            document.getElementById ("please").style.height = "100%";
+            document.getElementById ("please").style.cursor = "auto";
+        }
+    </script>
+    <style>
+    * {
+    margin:0;
+    padding:0;
+}
+
+body {
+	font-family:"Work Sans", sans-serif;
+    text-align:center;
+    background-color:wheat;
+}
+
+h1 {
+    font-size:40px;
+}
+
+#monument, #cit, #devious {
+    width:100%;
+    height:999vh;
+    margin:auto;
+    opacity:0;
+    transition:all 1s;
+    pointer-events:none;
+    position:fixed;
+    background-color:white;
+}
+
+a {
+    border:blue solid 1px;
+    color:blue;
+    display:inline-block;
+    cursor:pointer;
+    transition:all 0.5s;
+}
+
+a:hover {
+    background-color:skyblue;
+}
+
+img {
+    width:50px;
+    height:30px;
+    border-radius:10px;
+    transition:all 0.5s;
+}
+
+#bottom {
+    width:100%;
+    position:fixed;
+    bottom:30px;
+    margin:auto;
+    right:0%;
+    font-size:24px;
+}
+
+#bot {
+    margin:auto;
+    right:40%;
+}
+
+button {
+    width:200px;
+    height:150px;
+    font-family:"Work Sans", sans-serif;
+    background-color:transparent;
+    border:black solid 1px;
+    font-size:28px;
+    margin:0px;
+    cursor:pointer;
+    transition:all 0.5s;
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+    animation:hovereds 1s infinite;
+}
+
+@keyframes hovereds {
+    0% {
+        transform:scale(1);
+    }
+
+    50% {
+        transform:scale(0.9);
+    }
+
+    100% {
+        transform:scale(1.0);
+    }
+}
+
+button:onclick {
+    transform:scale(10);
+    opacity:0;
+}
+    </style>
+    </body>
+</html>
